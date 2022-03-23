@@ -1,0 +1,189 @@
+{
+	"supermercados":[
+		{
+			"id": "101",
+			"nombre": "Aldi",
+			"datos":{
+				"web": "https://www.aldi.es",
+				"direccion" {
+					"direccion": "Avd. de Cuba",
+					"numero": 28,
+					"CP": 34002,
+					"municipio": "Palencia",
+					"localidad": "Palencia",
+					"coordenadas":[
+						"42º0'52.491 N",
+						"4º31'7.17 O"
+					]
+				},
+				"telefono": "900902466"
+			},
+			"secciones":[
+				{
+					"id": "101.001",
+					"seccion": "Frescos",
+					"departamentos":[
+						{
+							"id":"101.001.001",
+							"nomb_dep": "Carniceria",
+							"productos":[
+								{
+									"id": "101.001.001.001",
+									"nombre": "Pollo",
+									"descripcion": "Pollo entero troceado",
+									"precio": "3.90",
+									"stock": 2,
+									"unidad": "kg",
+									"habitual": true,
+									"cesta": false,
+									"oferta": {
+										"activa": true,
+										"descuento": "-17%",
+										"vigencia_oferta":{
+											"inicio": "2022-03-23T00:00:01+00:00",
+											"fin": "2022-03-T00:00:01+00:00"
+										}
+									}
+								},
+								{
+									"id": "101.001.001.002",
+									"nombre": "Cerdo",
+									"descripcion": "Lomo de Cerdo en Filetes",
+									"precio": "6.44",
+									"stock": 3,
+									"unidad": "kg",
+									"habitual": false,
+									"cesta": true,
+									"oferta": {
+										"activa": false,
+										"descuento": "2a -50%",
+										"vigencia_oferta":{
+											"inicio": "2022-02-23T00:00:01+00:00",
+											"fin": "2022-02-T00:00:01+00:00"
+										}
+									}
+								}
+							]
+						},
+						{
+							"id":"101.001.002",
+							"nomb_dep": "Frutas y Verduras",
+							"productos":[
+								{
+									"id": "101.001.002.001",
+									"nombre": "Platano",
+									"descripcion": "Platano de Canarías",
+									"precio": "3.09",
+									"stock": 17,
+									"unidad": "kg",
+									"habitual": true,
+									"cesta": false,
+									"oferta": {
+										"activa": false,
+										"descuento": "-25%",
+										"vigencia_oferta":{
+											"inicio": "2022-01-23T00:00:01+00:00",
+											"fin": "2022-01-T00:00:01+00:00"
+										}
+									}
+								},
+								{
+									"id": "101.001.002.002",
+									"nombre": "Manzanas",
+									"descripcion": "Manzana Royal Gala",
+									"precio": "1.69",
+									"stock": 10,
+									"unidad": "kg",
+									"habitual": false,
+									"cesta": true,
+									"oferta": {
+										"activa": true,
+										"descuento": "-16%",
+										"vigencia_oferta":{
+											"inicio": "2022-03-23T00:00:01+00:00",
+											"fin": "2022-03-T00:00:01+00:00"
+										}
+									}
+								}
+							]
+						}
+					]
+				  },
+				{
+					"id": "101.002",
+					"seccion": "Alimentación",
+					"departamentos":[
+						{
+							"id":"101.002.001",
+							"nomb_dep": "Bebida y Bodega",
+							"productos":[
+								{
+									"id": "101.002.001.001",
+									"nombre": "Agua",
+									"descripcion": "Garrafa de Agua",
+									"precio": "0.35",
+									"stock": 2,
+									"unidad": "l",
+									"habitual": true,
+									"cesta": false,
+									"oferta": {
+										"activa": false,
+										"descuento": "-17%",
+										"vigencia_oferta":{
+											"inicio": "2022-01-23T00:00:01+00:00",
+											"fin": "2022-01-T00:00:01+00:00"
+										}
+									}
+								}
+							]
+						},
+						{
+							"id":"101.002.002",
+							"nomb_dep": "Despensa",
+							"productos":[
+								{
+									"id": "101.002.002.001",
+									"nombre": "Pasta",
+									"descripcion": "Bolsa de Macarrones",
+									"precio": "1.19",
+									"stock": 5,
+									"unidad": "kg",
+									"habitual": true,
+									"cesta": false,
+									"oferta": {
+										"activa": true,
+										"descuento": "-15%",
+										"vigencia_oferta":{
+											"inicio": "2022-03-23T00:00:01+00:00",
+											"fin": "2022-03-T00:00:01+00:00"
+										}
+									}
+								},
+								{
+									"id": "101.002.002.002",
+									"nombre": "Arroz",
+									"descripcion": "Bolsa de Arroz Bomba",
+									"precio": "2.75",
+									"stock": 6,
+									"unidad": "kg",
+									"habitual": true,
+									"cesta": true,
+									"oferta": {
+										"activa": true,
+										"descuento": "-50%",
+										"vigencia_oferta":{
+											"inicio": "2022-03-23T00:00:01+00:00",
+											"fin": "2022-03-T00:00:01+00:00"
+										}
+									}
+								}
+							]
+						}
+					]
+				  },
+				{}
+			]
+		}
+		{}
+	]
+}
