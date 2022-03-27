@@ -356,10 +356,10 @@
 							"productos":[
 								{
 									"id": "102.002.001.001",
-									"nombre": "Agua",
-									"descripcion": "Garrafa de Agua",
-									"precio": "0.35",
-									"stock": 2,
+									"nombre": "Soja",
+									"descripcion": "Bebida de soja sin azúcar",
+									"precio": "1.69",
+									"stock": 10,
 									"unidad": "l",
 									"habitual": true,
 									"cesta": false,
@@ -368,7 +368,25 @@
 										"descuento": "-17%",
 										"vigencia_oferta":{
 											"inicio": "2022-01-23T00:00:01+00:00",
-											"fin": "2022-01-T00:00:01+00:00"
+											"fin": "2022-01-29T00:00:01+00:00"
+										}
+									}
+								},
+							  {
+									"id": "102.002.001.002",
+									"nombre": "Avena",
+									"descripcion": "Bebida de avena sin azúcar",
+									"precio": "0.99",
+									"stock": 0,
+									"unidad": "l",
+									"habitual": true,
+									"cesta": true,
+									"oferta": {
+										"activa": true,
+										"descuento": "-17%",
+										"vigencia_oferta":{
+											"inicio": "2022-03-23T00:00:01+00:00",
+											"fin": "2022-03-29T00:00:01+00:00"
 										}
 									}
 								}
@@ -380,37 +398,19 @@
 							"productos":[
 								{
 									"id": "102.002.002.001",
-									"nombre": "Pasta",
-									"descripcion": "Bolsa de Macarrones",
-									"precio": "1.19",
-									"stock": 5,
-									"unidad": "kg",
-									"habitual": true,
-									"cesta": false,
-									"oferta": {
-										"activa": true,
-										"descuento": "-15%",
-										"vigencia_oferta":{
-											"inicio": "2022-03-23T00:00:01+00:00",
-											"fin": "2022-03-T00:00:01+00:00"
-										}
-									}
-								},
-								{
-									"id": "102.002.002.002",
-									"nombre": "Arroz",
-									"descripcion": "Bolsa de Arroz Bomba",
-									"precio": "2.75",
+									"nombre": "Tomate",
+									"descripcion": "Tomate frito",
+									"precio": "0.77",
 									"stock": 6,
 									"unidad": "kg",
 									"habitual": true,
 									"cesta": true,
 									"oferta": {
 										"activa": true,
-										"descuento": "-50%",
+										"descuento": "-40%",
 										"vigencia_oferta":{
 											"inicio": "2022-03-23T00:00:01+00:00",
-											"fin": "2022-03-T00:00:01+00:00"
+											"fin": "2022-03-30T00:00:01+00:00"
 										}
 									}
 								}
@@ -428,37 +428,19 @@
 							"productos":[
 								{
 									"id": "102.003.001.001",
-									"nombre": "Gel",
-									"descripcion": "Gel de ducha sólido",
-									"precio": "10.39",
+									"nombre": "Acondicionador",
+									"descripcion": "Acondicionador pelo reparador",
+									"precio": "1.49",
 									"stock": 2,
-									"unidad": "g",
-									"habitual": true,
+									"unidad": "ml",
+									"habitual": false,
 									"cesta": false,
 									"oferta": {
 										"activa": true,
-										"descuento": "-20%",
+										"descuento": "30% en 2a ud.",
 										"vigencia_oferta":{
 											"inicio": "2022-03-23T00:00:01+00:00",
-											"fin": "2022-03-T00:00:01+00:00"
-										}
-									}
-								},
-								{
-									"id": "102.003.001.002",
-									"nombre": "Champú",
-									"descripcion": "Gel de ducha sólido",
-									"precio": "3.99",
-									"stock": 1,
-									"unidad": "g",
-									"habitual": true,
-									"cesta": true,
-									"oferta": {
-										"activa": false,
-										"descuento": "-20%",
-										"vigencia_oferta":{
-											"inicio": "2022-02-23T00:00:01+00:00",
-											"fin": "2022-02-T00:00:01+00:00"
+											"fin": "2022-03-30T00:00:01+00:00"
 										}
 									}
 								}
@@ -470,9 +452,9 @@
 							"productos":[
 								{
 									"id": "102.003.002.001",
-									"nombre": "Ambientador",
-									"descripcion": "Ambientador Spray Ropa",
-									"precio": "0.99",
+									"nombre": "Vitro",
+									"descripcion": "Limpiador vitroceramica",
+									"precio": "3.44",
 									"stock": 1,
 									"unidad": "l",
 									"habitual": true,
@@ -482,7 +464,25 @@
 										"descuento": "-15%",
 										"vigencia_oferta":{
 											"inicio": "2022-02-23T00:00:01+00:00",
-											"fin": "2022-02-T00:00:01+00:00"
+											"fin": "2022-02-29T00:00:01+00:00"
+										}
+									}
+								},
+							  {
+									"id": "102.003.002.002",
+									"nombre": "Limpiador",
+									"descripcion": "Limpiador multisuperficies",
+									"precio": "1.72",
+									"stock": 1,
+									"unidad": "l",
+									"habitual": true,
+									"cesta": true,
+									"oferta": {
+										"activa": true,
+										"descuento": "2a al 50%",
+										"vigencia_oferta":{
+											"inicio": "2022-03-23T00:00:01+00:00",
+											"fin": "2022-03-30T00:00:01+00:00"
 										}
 									}
 								}
