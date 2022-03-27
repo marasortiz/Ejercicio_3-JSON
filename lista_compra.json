@@ -5,7 +5,7 @@
 			"nombre": "Aldi",
 			"datos":{
 				"web": "https://www.aldi.es",
-				"direccion" {
+				"direccion" : [{
 					"direccion": "Avd. de Cuba",
 					"numero": 28,
 					"CP": 34002,
@@ -15,7 +15,7 @@
 						"42º0'52.491 N",
 						"4º31'7.17 O"
 					]
-				},
+				}],
 				"telefono": "900902466"
 			},
 			"secciones":[
@@ -41,7 +41,7 @@
 										"descuento": "-17%",
 										"vigencia_oferta":{
 											"inicio": "2022-03-23T00:00:01+00:00",
-											"fin": "2022-03-T00:00:01+00:00"
+											"fin": "2022-03-29T00:00:01+00:00"
 										}
 									}
 								},
@@ -59,7 +59,7 @@
 										"descuento": "2a -50%",
 										"vigencia_oferta":{
 											"inicio": "2022-02-23T00:00:01+00:00",
-											"fin": "2022-02-T00:00:01+00:00"
+											"fin": "2022-02-29T00:00:01+00:00"
 										}
 									}
 								}
@@ -83,7 +83,7 @@
 										"descuento": "-25%",
 										"vigencia_oferta":{
 											"inicio": "2022-01-23T00:00:01+00:00",
-											"fin": "2022-01-T00:00:01+00:00"
+											"fin": "2022-01-29T00:00:01+00:00"
 										}
 									}
 								},
@@ -101,7 +101,7 @@
 										"descuento": "-16%",
 										"vigencia_oferta":{
 											"inicio": "2022-03-23T00:00:01+00:00",
-											"fin": "2022-03-T00:00:01+00:00"
+											"fin": "2022-03-29T00:00:01+00:00"
 										}
 									}
 								}
@@ -131,7 +131,7 @@
 										"descuento": "-17%",
 										"vigencia_oferta":{
 											"inicio": "2022-01-23T00:00:01+00:00",
-											"fin": "2022-01-T00:00:01+00:00"
+											"fin": "2022-01-29T00:00:01+00:00"
 										}
 									}
 								}
@@ -155,12 +155,249 @@
 										"descuento": "-15%",
 										"vigencia_oferta":{
 											"inicio": "2022-03-23T00:00:01+00:00",
-											"fin": "2022-03-T00:00:01+00:00"
+											"fin": "2022-03-29T00:00:01+00:00"
 										}
 									}
 								},
 								{
 									"id": "101.002.002.002",
+									"nombre": "Arroz",
+									"descripcion": "Bolsa de Arroz Bomba",
+									"precio": "2.75",
+									"stock": 6,
+									"unidad": "kg",
+									"habitual": true,
+									"cesta": true,
+									"oferta": {
+										"activa": true,
+										"descuento": "-50%",
+										"vigencia_oferta":{
+											"inicio": "2022-03-23T00:00:01+00:00",
+											"fin": "2022-03-29T00:00:01+00:00"
+										}
+									}
+								}
+							]
+						}
+					]
+				  },
+				{
+					"id": "101.003",
+					"seccion": "Menaje",
+					"departamentos":[
+						{
+							"id":"101.003.001",
+							"nomb_dep": "Cuidado Personal",
+							"productos":[
+								{
+									"id": "101.003.001.001",
+									"nombre": "Gel",
+									"descripcion": "Gel de ducha sólido",
+									"precio": "10.39",
+									"stock": 2,
+									"unidad": "g",
+									"habitual": true,
+									"cesta": false,
+									"oferta": {
+										"activa": true,
+										"descuento": "-20%",
+										"vigencia_oferta":{
+											"inicio": "2022-03-23T00:00:01+00:00",
+											"fin": "2022-03-29T00:00:01+00:00"
+										}
+									}
+								},
+								{
+									"id": "101.003.001.002",
+									"nombre": "Champú",
+									"descripcion": "Gel de ducha sólido",
+									"precio": "3.99",
+									"stock": 1,
+									"unidad": "g",
+									"habitual": true,
+									"cesta": true,
+									"oferta": {
+										"activa": false,
+										"descuento": "-20%",
+										"vigencia_oferta":{
+											"inicio": "2022-02-23T00:00:01+00:00",
+											"fin": "2022-02-29T00:00:01+00:00"
+										}
+									}
+								}
+							]
+						},
+						{
+							"id":"101.003.002",
+							"nomb_dep": "Cuidado hogar",
+							"productos":[
+								{
+									"id": "101.003.002.001",
+									"nombre": "Ambientador",
+									"descripcion": "Ambientador Spray Ropa",
+									"precio": "0.99",
+									"stock": 1,
+									"unidad": "l",
+									"habitual": true,
+									"cesta": true,
+									"oferta": {
+										"activa": false,
+										"descuento": "-15%",
+										"vigencia_oferta":{
+											"inicio": "2022-02-23T00:00:01+00:00",
+											"fin": "2022-02-29T00:00:01+00:00"
+										}
+									}
+								}
+							]
+						}
+					]
+				  }
+			]
+		},
+		{
+			"id": "102",
+			"nombre": "Lidl",
+			"datos":{
+				"web": "https://www.lidl.es",
+				"direccion" : [{
+					"direccion": "Avda.Cataluña",
+					"numero": null,
+					"CP": 34004,
+					"municipio": "Palencia", 
+					"localidad": "Palencia",
+					"coordenadas":[
+						"42º0'27.5 N",
+						"4º31'8.988 O"
+					]
+				}],
+				"telefono": "900958311"
+			},
+			"secciones":[
+				{
+					"id": "102.001",
+					"seccion": "Frescos",
+					"departamentos":[
+						{
+							"id":"102.001.001",
+							"nomb_dep": "Carniceria",
+							"productos":[
+								{
+									"id": "101.001.001.001",
+									"nombre": "Ternera",
+									"descripcion": "Solomillo de Vacuno",
+									"precio": "29.90",
+									"stock": 1,
+									"unidad": "kg",
+									"habitual": false,
+									"cesta": false,
+									"oferta": {
+										"activa": true,
+										"descuento": "-20%",
+										"vigencia_oferta":{
+											"inicio": "2022-03-23T00:00:01+00:00",
+											"fin": "2022-03-29T00:00:01+00:00"
+										}
+									}
+								}
+							]
+						},
+						{
+							"id":"102.001.002",
+							"nomb_dep": "Frutas y Verduras",
+							"productos":[
+								{
+									"id": "102.001.002.001",
+									"nombre": "Kiwi",
+									"descripcion": "Kiwi Zespri",
+									"precio": "3.59",
+									"stock": 5,
+									"unidad": "kg",
+									"habitual": true,
+									"cesta": true,
+									"oferta": {
+										"activa": true,
+										"descuento": "-25%",
+										"vigencia_oferta":{
+											"inicio": "2022-03-23T00:00:01+00:00",
+											"fin": "2022-04-10T00:00:01+00:00"
+										}
+									}
+								},
+								{
+									"id": "102.001.002.002",
+									"nombre": "Melón",
+									"descripcion": "Melón Piel de Sapo",
+									"precio": "1.99",
+									"stock": 1,
+									"unidad": "kg",
+									"habitual": false,
+									"cesta": false,
+									"oferta": {
+										"activa": false,
+										"descuento": "-16%",
+										"vigencia_oferta":{
+											"inicio": "2022-02-23T00:00:01+00:00",
+											"fin": "2022-03-13T00:00:01+00:00"
+										}
+									}
+								}
+							]
+						}
+					]
+				  },
+				{
+					"id": "102.002",
+					"seccion": "Alimentación",
+					"departamentos":[
+						{
+							"id":"102.002.001",
+							"nomb_dep": "Bebida y Bodega",
+							"productos":[
+								{
+									"id": "102.002.001.001",
+									"nombre": "Agua",
+									"descripcion": "Garrafa de Agua",
+									"precio": "0.35",
+									"stock": 2,
+									"unidad": "l",
+									"habitual": true,
+									"cesta": false,
+									"oferta": {
+										"activa": false,
+										"descuento": "-17%",
+										"vigencia_oferta":{
+											"inicio": "2022-01-23T00:00:01+00:00",
+											"fin": "2022-01-T00:00:01+00:00"
+										}
+									}
+								}
+							]
+						},
+						{
+							"id":"102.002.002",
+							"nomb_dep": "Despensa",
+							"productos":[
+								{
+									"id": "102.002.002.001",
+									"nombre": "Pasta",
+									"descripcion": "Bolsa de Macarrones",
+									"precio": "1.19",
+									"stock": 5,
+									"unidad": "kg",
+									"habitual": true,
+									"cesta": false,
+									"oferta": {
+										"activa": true,
+										"descuento": "-15%",
+										"vigencia_oferta":{
+											"inicio": "2022-03-23T00:00:01+00:00",
+											"fin": "2022-03-T00:00:01+00:00"
+										}
+									}
+								},
+								{
+									"id": "102.002.002.002",
 									"nombre": "Arroz",
 									"descripcion": "Bolsa de Arroz Bomba",
 									"precio": "2.75",
@@ -181,9 +418,79 @@
 						}
 					]
 				  },
-				{}
+				{
+					"id": "102.003",
+					"seccion": "Menaje",
+					"departamentos":[
+						{
+							"id":"102.003.001",
+							"nomb_dep": "Cuidado Personal",
+							"productos":[
+								{
+									"id": "102.003.001.001",
+									"nombre": "Gel",
+									"descripcion": "Gel de ducha sólido",
+									"precio": "10.39",
+									"stock": 2,
+									"unidad": "g",
+									"habitual": true,
+									"cesta": false,
+									"oferta": {
+										"activa": true,
+										"descuento": "-20%",
+										"vigencia_oferta":{
+											"inicio": "2022-03-23T00:00:01+00:00",
+											"fin": "2022-03-T00:00:01+00:00"
+										}
+									}
+								},
+								{
+									"id": "102.003.001.002",
+									"nombre": "Champú",
+									"descripcion": "Gel de ducha sólido",
+									"precio": "3.99",
+									"stock": 1,
+									"unidad": "g",
+									"habitual": true,
+									"cesta": true,
+									"oferta": {
+										"activa": false,
+										"descuento": "-20%",
+										"vigencia_oferta":{
+											"inicio": "2022-02-23T00:00:01+00:00",
+											"fin": "2022-02-T00:00:01+00:00"
+										}
+									}
+								}
+							]
+						},
+						{
+							"id":"102.003.002",
+							"nomb_dep": "Cuidado hogar",
+							"productos":[
+								{
+									"id": "102.003.002.001",
+									"nombre": "Ambientador",
+									"descripcion": "Ambientador Spray Ropa",
+									"precio": "0.99",
+									"stock": 1,
+									"unidad": "l",
+									"habitual": true,
+									"cesta": true,
+									"oferta": {
+										"activa": false,
+										"descuento": "-15%",
+										"vigencia_oferta":{
+											"inicio": "2022-02-23T00:00:01+00:00",
+											"fin": "2022-02-T00:00:01+00:00"
+										}
+									}
+								}
+							]
+						}
+					]
+				  }
 			]
 		}
-		{}
 	]
 }
