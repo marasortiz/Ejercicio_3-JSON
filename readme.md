@@ -1,7 +1,7 @@
 Ejercicio 3. JSON.
 Samsung Desarrolladoras.
 
-an es el encargado de realizar las compras en su casa, por lo que revisa a menudo los catálogos de ofertas de los diferentes supermercados próximos a su domicilio con el fin de ahorrarse unos euros a final de mes.
+Juan es el encargado de realizar las compras en su casa, por lo que revisa a menudo los catálogos de ofertas de los diferentes supermercados próximos a su domicilio con el fin de ahorrarse unos euros a final de mes.
 
 A Juan le gustaría disponer de su lista de la compra en los diferentes supermercados de manera estructurada ya que está pensando en desarrollar una aplicación web que muestre esta información.
 
