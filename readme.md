@@ -1,6 +1,8 @@
 Ejercicio 3. JSON.
 Samsung Desarrolladoras.
 
+https://marasortiz.github.io/Ejercicio_3-JSON/
+
 Juan es el encargado de realizar las compras en su casa, por lo que revisa a menudo los catálogos de ofertas de los diferentes supermercados próximos a su domicilio con el fin de ahorrarse unos euros a final de mes.
 
 A Juan le gustaría disponer de su lista de la compra en los diferentes supermercados de manera estructurada ya que está pensando en desarrollar una aplicación web que muestre esta información.
@@ -10,4 +12,3 @@ Nuestra labor es ayudar a Juan en este cometido definiendo su lista de la compra
 En cuanto a la información de los diferentes supermercados sería interesante conocer algunos datos básicos, nombre, dirección y geolocalización, que posterior-mente permitan a la aplicación web proporcionar funcionalidades adicionales.
 
 Finalmente, dado que Juan todavía no se ha decidido por un estándar, también necesitará tener un ejemplo de un supermercado en concreto en formato XML.
-
